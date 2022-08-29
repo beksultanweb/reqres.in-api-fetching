@@ -17,7 +17,7 @@ const Userpage = () => {
     }, [])
 
     return (
-        <div className="navbar">
+        <div>
             <img src={user.users.data.avatar} alt="avatar" />
             <div>{user.users.data.email}</div>
             <div>{user.users.data.first_name}</div>

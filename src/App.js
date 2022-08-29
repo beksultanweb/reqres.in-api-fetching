@@ -27,7 +27,7 @@ function App() {
           </Routes>
         : 
         <Routes>
-            <Route path='/' index element={<Home />}/>
+            <Route path='/' element={<Home />}/>
             <Route path='/users/:userId' element={<Userpage/>}/>           
             {/* <Route path="/*" element={<div>Not found</div>} />    */}
             <Route path="/*" element={<Navigate replace to="/" />} />         

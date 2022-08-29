@@ -1,5 +1,4 @@
 import React from 'react'
-import './navbar.css' 
 import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { getUsers } from '../../actions/getusers'
@@ -19,7 +18,8 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="navbar">
+        <div>
+            <div>Click the IMG to open particular data</div>
             {users}
         </div>
     )
